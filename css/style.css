@@ -33,6 +33,13 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.clock {
+  display: flex;
+  align-items: center;
+}
+.clock i {
+  margin: 4px;
+}
 #weather {
   font-weight: 500;
   color: rgb(194, 175, 151);
