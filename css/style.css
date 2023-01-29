@@ -3,8 +3,6 @@
   src: url("./font/Curvilingus.otf");
 }
 
-* {
-}
 body {
   width: 90vw;
   height: 100vh;
@@ -47,6 +45,9 @@ main {
   width: 20%;
   margin-right: 10px;
   font-family: curv;
+}
+audio {
+  background-color: ;
 }
 main div {
   margin: 0px 10px;
