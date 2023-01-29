@@ -1,24 +1,24 @@
 const quotes = [
   {
     qutoe: "A hug is always the right size.",
-    author: "Pooh",
+    author: " Pooh",
   },
   {
     qutoe: "After all, one can't complain. I have my friends.",
-    author: "EEYORE",
+    author: " EEYORE",
   },
   {
     qutoe: "The things that make me different are the things that make me, me.",
-    author: "Piglet",
+    author: " Piglet",
   },
   {
     qutoe:
       "You're braver than you believe, stronger than you seem and smarter than you think.",
-    author: "Christopher Robin",
+    author: " Christopher Robin",
   },
   {
     qutoe: "THe most wonderful thing about Tiggers is, I'm the only one.",
-    author: "Tigger",
+    author: " Tigger",
   },
 ];
 

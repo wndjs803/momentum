@@ -1,3 +1,20 @@
+@font-face {
+  font-family: curv;
+  src: url("./font/Curvilingus.otf");
+}
+
+* {
+}
+body {
+  width: 90vw;
+  height: 100vh;
+  padding: 0 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  color: #30383e;
+}
 .hidden {
   display: none;
 }
@@ -11,4 +28,88 @@ img {
   bottom: 0px;
   z-index: -1;
   opacity: 80%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#weather {
+  font-weight: 500;
+  color: rgb(194, 175, 151);
+}
+main {
+  display: flex;
+  height: 80%;
+}
+#greeting {
+  width: 20%;
+  margin-right: 10px;
+  font-family: curv;
+}
+main div {
+  margin: 0px 10px;
+  padding: 10px;
+}
+main div h3 {
+  text-align: center;
+  font-family: curv;
+  font-size: 40px;
+}
+.todo {
+  display: flex;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: ;
+  width: 100%;
+  padding: 10px;
+}
+#todo-form input {
+  padding-left: 5px;
+  margin-left: 40px;
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  border: none;
+}
+li {
+  display: flex;
+}
+li span {
+  margin: 3px;
+  margin-right: 6px;
+  font-size: 20px;
+}
+li button {
+  color: rgb(136, 200, 143);
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+li button:hover {
+  cursor: pointer;
+}
+.bookmark {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  border: none;
+}
+@font-face {
+  font-family: winter;
+  src: url("./font/WinterWonderland.otf");
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: winter;
+  font-size: 30px;
 }

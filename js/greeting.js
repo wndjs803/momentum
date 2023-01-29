@@ -1,6 +1,7 @@
 const loginForm = document.getElementById("login-form");
 const loginInput = loginForm.querySelector("input");
 const greeting = document.querySelector("#greeting");
+const todosForm = document.getElementById("todo-form");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "useranme";
@@ -15,8 +16,9 @@ function loginSubmit(event) {
 }
 
 function paintGreeting(useranme) {
-  greeting.innerText = `Hello ${useranme}`;
+  greeting.innerText = `Hello!\n ${useranme}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
+  todosForm.classList.remove(HIDDEN_CLASSNAME);
 }
 
 const savedUsername = localStorage.getItem("USERNAME_KEY");
